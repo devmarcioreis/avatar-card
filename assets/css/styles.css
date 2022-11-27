@@ -73,3 +73,18 @@ body {
     transform: translateY(-50%);
     filter: blur(5px);
 }
+.card .details {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    transition: .5s;
+    z-index: 2;
+}
+.card:hover .details {
+    bottom: 40px;
+}
+.card .details .logo {
+    max-width: 180px;
+}
