@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +11,19 @@
     border: none;
     outline: none;
     box-sizing: border-box;
+}
+
+:root {
+    --color-1: #007bb2;
+    --color-2: #0d1423;
+    --font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(var(--color-1), var(--color-2));
 }
