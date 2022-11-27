@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-
+/*==========Google Fonts==========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/*==========Reset CSS==========*/
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +14,14 @@
     box-sizing: border-box;
 }
 
+/*==========Root==========*/
 :root {
     --color-1: #007bb2;
     --color-2: #0d1423;
     --font: 'Poppins', sans-serif;
 }
 
+/*==========Base==========*/
 body {
     font-family: var(--font);  
     display: flex;
@@ -27,3 +30,5 @@ body {
     min-height: 100vh;
     background: linear-gradient(var(--color-1), var(--color-2));
 }
+
+/*==========Card==========*/
